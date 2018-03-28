@@ -16,7 +16,7 @@ pipeline {
 		    npm install gulp
 		    npm install
 		    npm run prepublish
-            ```
+            	    '''
             }
         }
     }
