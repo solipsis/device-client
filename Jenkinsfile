@@ -9,7 +9,7 @@ pipeline {
 		    cd ..
 		    rm -rf device-protocol
 		    git clone -b erc20 https://github.com/keepkey/device-protocol
-		    cd BUILD_DIR
+		    cd $BUILD_DIR
 		    make device-client
             	    '''
             }
